@@ -8,6 +8,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(SOURCE_FILES
     src/main.cpp
     src/modules/memory.cpp
+    src/modules/language.cpp
 )
 
 add_executable(cpp_testing_grounds ${SOURCE_FILES})
